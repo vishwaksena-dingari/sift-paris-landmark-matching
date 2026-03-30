@@ -1,0 +1,263 @@
+{
+  "description": "Image pair definitions for the SIFT matching experiment. Each pair has a 'reference' (easy-baseline image) and a 'test' image at a specific difficulty level. The difficulty reflects the visual conditions under which the test image was captured relative to the reference. Adjust 'reference' per landmark if you choose a different easy image.",
+  "difficulty_definitions": {
+    "easy":   "Same landmark, similar angle and lighting — establishes baseline inlier count.",
+    "medium": "Same landmark, different angle OR different lighting (not both simultaneously).",
+    "hard":   "Day vs. night, heavy crowd occlusion, or extreme viewpoint angle.",
+    "stress": "Highly degraded image — very few expected inliers; tests algorithm floor."
+  },
+  "pairs": [
+    {
+      "id": "eiffel_easy_091_005",
+      "landmark": "eiffel",
+      "reference": "paris_eiffel_000091.jpg",
+      "test":      "paris_eiffel_000005.jpg",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eiffel_medium_091_051",
+      "landmark": "eiffel",
+      "reference": "paris_eiffel_000091.jpg",
+      "test":      "paris_eiffel_000051.jpg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eiffel_medium_091_028",
+      "landmark": "eiffel",
+      "reference": "paris_eiffel_000091.jpg",
+      "test":      "paris_eiffel_000028.jpg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eiffel_medium_091_128",
+      "landmark": "eiffel",
+      "reference": "paris_eiffel_000091.jpg",
+      "test":      "paris_eiffel_000128.jpg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eiffel_hard_091_037",
+      "landmark": "eiffel",
+      "reference": "paris_eiffel_000091.jpg",
+      "test":      "paris_eiffel_000037.jpg",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eiffel_hard_091_110",
+      "landmark": "eiffel",
+      "reference": "paris_eiffel_000091.jpg",
+      "test":      "paris_eiffel_000110.jpg",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eiffel_hard_091_014",
+      "landmark": "eiffel",
+      "reference": "paris_eiffel_000091.jpg",
+      "test":      "paris_eiffel_000014.jpg",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eiffel_hard_091_000",
+      "landmark": "eiffel",
+      "reference": "paris_eiffel_000091.jpg",
+      "test":      "paris_eiffel_000000.jpg",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eiffel_stress_091_030",
+      "landmark": "eiffel",
+      "reference": "paris_eiffel_000091.jpg",
+      "test":      "paris_eiffel_000030.jpg",
+      "difficulty": "stress"
+    },
+    {
+      "id": "louvre_easy_050_004",
+      "landmark": "louvre",
+      "reference": "paris_louvre_000050.jpg",
+      "test":      "paris_louvre_000004.jpg",
+      "difficulty": "easy"
+    },
+    {
+      "id": "louvre_medium_050_022",
+      "landmark": "louvre",
+      "reference": "paris_louvre_000050.jpg",
+      "test":      "paris_louvre_000022.jpg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "louvre_medium_050_099",
+      "landmark": "louvre",
+      "reference": "paris_louvre_000050.jpg",
+      "test":      "paris_louvre_000099.jpg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "louvre_hard_050_008",
+      "landmark": "louvre",
+      "reference": "paris_louvre_000050.jpg",
+      "test":      "paris_louvre_000008.jpg",
+      "difficulty": "hard"
+    },
+    {
+      "id": "louvre_hard_050_013",
+      "landmark": "louvre",
+      "reference": "paris_louvre_000050.jpg",
+      "test":      "paris_louvre_000013.jpg",
+      "difficulty": "hard"
+    },
+    {
+      "id": "louvre_hard_050_033",
+      "landmark": "louvre",
+      "reference": "paris_louvre_000050.jpg",
+      "test":      "paris_louvre_000033.jpg",
+      "difficulty": "hard"
+    },
+    {
+      "id": "louvre_hard_050_062",
+      "landmark": "louvre",
+      "reference": "paris_louvre_000050.jpg",
+      "test":      "paris_louvre_000062.jpg",
+      "difficulty": "hard"
+    },
+    {
+      "id": "louvre_stress_050_017",
+      "landmark": "louvre",
+      "reference": "paris_louvre_000050.jpg",
+      "test":      "paris_louvre_000017.jpg",
+      "difficulty": "stress"
+    },
+    {
+      "id": "notredame_easy_032_121",
+      "landmark": "notredame",
+      "reference": "paris_notredame_000032.jpg",
+      "test":      "paris_notredame_000121.jpg",
+      "difficulty": "easy"
+    },
+    {
+      "id": "notredame_easy_032_204",
+      "landmark": "notredame",
+      "reference": "paris_notredame_000032.jpg",
+      "test":      "paris_notredame_000204.jpg",
+      "difficulty": "easy"
+    },
+    {
+      "id": "notredame_medium_032_086",
+      "landmark": "notredame",
+      "reference": "paris_notredame_000032.jpg",
+      "test":      "paris_notredame_000086.jpg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "notredame_medium_032_133",
+      "landmark": "notredame",
+      "reference": "paris_notredame_000032.jpg",
+      "test":      "paris_notredame_000133.jpg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "notredame_medium_032_195",
+      "landmark": "notredame",
+      "reference": "paris_notredame_000032.jpg",
+      "test":      "paris_notredame_000195.jpg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "notredame_medium_032_367",
+      "landmark": "notredame",
+      "reference": "paris_notredame_000032.jpg",
+      "test":      "paris_notredame_000367.jpg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "notredame_hard_032_042",
+      "landmark": "notredame",
+      "reference": "paris_notredame_000032.jpg",
+      "test":      "paris_notredame_000042.jpg",
+      "difficulty": "hard"
+    },
+    {
+      "id": "notredame_hard_032_083",
+      "landmark": "notredame",
+      "reference": "paris_notredame_000032.jpg",
+      "test":      "paris_notredame_000083.jpg",
+      "difficulty": "hard"
+    },
+    {
+      "id": "notredame_hard_032_762",
+      "landmark": "notredame",
+      "reference": "paris_notredame_000032.jpg",
+      "test":      "paris_notredame_000762.jpg",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sacrecoeur_easy_085_094",
+      "landmark": "sacrecoeur",
+      "reference": "paris_sacrecoeur_000085.jpg",
+      "test":      "paris_sacrecoeur_000094.jpg",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sacrecoeur_easy_085_086",
+      "landmark": "sacrecoeur",
+      "reference": "paris_sacrecoeur_000085.jpg",
+      "test":      "paris_sacrecoeur_000086.jpg",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sacrecoeur_easy_085_010",
+      "landmark": "sacrecoeur",
+      "reference": "paris_sacrecoeur_000085.jpg",
+      "test":      "paris_sacrecoeur_000010.jpg",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sacrecoeur_medium_085_124",
+      "landmark": "sacrecoeur",
+      "reference": "paris_sacrecoeur_000085.jpg",
+      "test":      "paris_sacrecoeur_000124.jpg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sacrecoeur_medium_085_121",
+      "landmark": "sacrecoeur",
+      "reference": "paris_sacrecoeur_000085.jpg",
+      "test":      "paris_sacrecoeur_000121.jpg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sacrecoeur_medium_085_065",
+      "landmark": "sacrecoeur",
+      "reference": "paris_sacrecoeur_000085.jpg",
+      "test":      "paris_sacrecoeur_000065.jpg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sacrecoeur_medium_085_012",
+      "landmark": "sacrecoeur",
+      "reference": "paris_sacrecoeur_000085.jpg",
+      "test":      "paris_sacrecoeur_000012.jpg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sacrecoeur_medium_085_009",
+      "landmark": "sacrecoeur",
+      "reference": "paris_sacrecoeur_000085.jpg",
+      "test":      "paris_sacrecoeur_000009.jpg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sacrecoeur_hard_085_101",
+      "landmark": "sacrecoeur",
+      "reference": "paris_sacrecoeur_000085.jpg",
+      "test":      "paris_sacrecoeur_000101.jpg",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sacrecoeur_hard_085_052",
+      "landmark": "sacrecoeur",
+      "reference": "paris_sacrecoeur_000085.jpg",
+      "test":      "paris_sacrecoeur_000052.jpg",
+      "difficulty": "hard"
+    }
+  ]
+}
