@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# macOS
+.DS_Store
+**/.DS_Store
+~$*
+
+# Internal working notes — not part of submission
+outputs/
+
+# Grid search trial log — internal, not needed by graders
+results/tuning_trials.json
+results/tuning_trials.csv
+
+# Duplicate proposal formats — PDF is the submitted version
+msml640_mid-term_project_proposal.docx
+msml640_mid-term_project_proposal.md
+
+# Assignment rubric — not part of submission
+Spring 2026 MSML640 Project1-1.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# Local Claude Code files (not part of the project)
+.claude/
+CLAUDE.md
+
+# Unit tests (local verification only — not submitted)
+tests/
+
+# Jupyter
+.ipynb_checkpoints/
