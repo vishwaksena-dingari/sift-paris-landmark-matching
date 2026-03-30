@@ -1,0 +1,9 @@
+{
+  "blur_kernel": [
+    3,
+    3
+  ],
+  "blur_sigma": 1.0,
+  "ratio_threshold": 0.7,
+  "reproj_threshold": 8.0
+}
